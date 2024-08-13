@@ -28,6 +28,9 @@ configurations {
 }
 
 dependencies {
+    profile("org.grails.profiles:web")
+    implementation("org.grails:grails-shell:6.1.2")
+
     implementation("org.grails:grails-core")
     implementation("org.grails:grails-logging")
     implementation("org.grails:grails-plugin-databinding")
