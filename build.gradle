@@ -28,7 +28,8 @@ configurations {
 }
 
 dependencies {
-    profile("org.grails.profiles:web")
+    profile("org.grails.profiles:web:6.0.0-SNAPSHOT")
+    profile("org.grails.profiles:base:6.0.0-SNAPSHOT")
     implementation("org.grails:grails-shell:6.1.2")
 
     implementation("org.grails:grails-core")
